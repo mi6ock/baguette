@@ -25,4 +25,7 @@ See the example for details.
 
 ## Additional information
 
-
+```
+baguette
+    git: https://github.com/mi6ock/baguette.git
+```
