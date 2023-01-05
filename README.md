@@ -19,7 +19,9 @@ Use StateNotifier and RiverPods.
 Add `baguette` and [`flutter_riverpod`](https://github.com/rrousselGit/riverpod) to Pubspec.yaml.
 
 ## Usage
-`Store` and `SideEffect` in the upper figure use this library, `State` uses `freezed` etc., `Repository` could be anything.
+`Store` and `SideEffect` in the upper figure use this library.`State` extends `BState`, so that a `Model` is called from `State`.
+. `State` should call `Model`.
+`State` and `Model` uses `freezed` etc., `Repository` could be anything.
 `Store` subscription uses `Riverpods`.
 See the example for details.
 
