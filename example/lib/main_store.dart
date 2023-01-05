@@ -7,7 +7,7 @@ class Counter extends Store<CounterState> {
   Counter() : super(const CounterState());
 }
 
-class CounterState {
+class CounterState extends BState {
   final int count;
 
   const CounterState({this.count = 0});
@@ -19,4 +19,3 @@ class CounterState {
         count: count ?? this.count,
       );
 }
-
