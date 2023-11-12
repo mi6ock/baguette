@@ -5,20 +5,29 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_riverpod: ^2.1.1
+  uuid: ^4.2.1
+  logger: ^2.0.2+1
+  freezed_annotation: ^2.2.0
+  intl: ^0.18.0
+  equatable: ^2.0.5
   baguette:
     path: ../
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+  json_annotation: ^4.8.0
 
 flutter:
   uses-material-design: true
