@@ -1,3 +1,5 @@
+# Flutter one way state management. Inspired by redux.
+
 ```mermaid 
 flowchart LR
 Widget --> SideEffect
